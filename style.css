@@ -1,0 +1,555 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.three-dots{
+    display: none;
+}
+.first-nav{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.first-nav img{
+    padding: 0 10px;
+    height: 33px;
+    width: 33px;
+}
+.first-nav button{
+height: 35px;
+width: 100px;
+background-color: black;
+color: white;
+border-radius: 25px;
+margin-left: 10px;
+height: 30px;
+font-weight: bold;
+transition: background-color 0.3s ease, transform 0.3s ease; 
+
+}
+.first-nav p{
+font-weight: 550;
+font-size: 14px;
+}
+hr{
+    border-top: 1px solid #eaeaea;
+}
+.second-nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-nav-first-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5em;
+}
+.second-nav-second-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5em;
+
+}
+.bucket-img{
+    width: 48px;
+  height: 48px;
+  position: relative;
+  right: 113px;
+}
+.second-nav-second-section a{
+    font-weight: bold;
+    font-size: 13.6px;
+    text-decoration: none;
+    color: black;
+}
+.second-nav-first-section a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    width: 0;
+    display: block;
+}
+.menu{
+    margin-left: -36px;
+    font-size: 13.6px;
+}
+.kfc-logo{
+    margin-left: 130px;
+}
+.deals{
+    font-size: 13.6px;
+    margin-left: 0px ;
+}
+.acc-icon-img{
+    height: auto;
+    width: auto;
+    margin-right: -49px;
+}
+.zero{
+    font-weight: bold;
+    position: relative;
+    left: -60px;
+}
+.order-reminder{
+    width: 100%;
+    height: 68px;
+    background-color: #202124;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-reminder button{
+    height: 2.75rem;
+    padding: 0 2.5rem;
+    border: 0;
+    border-radius: 1.4rem;
+    font-size: .9rem;
+    line-height: 2.75rem;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    background-color: #e4002b;
+    color: white;
+    margin-left: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+.order-reminder p{
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 10px;
+}
+.banner-img img{
+    width: 100%;
+}
+.second-section{
+    margin: 100px 0px 100px 240px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.brows-img-category{
+display: flex;
+justify-content: space-evenly;
+}
+.brows-img-category h1 {
+    font-size: 2em;
+    letter-spacing: -1px;
+  }
+ .line {
+    width: 70%;
+    border-top: 1px solid rgb(173, 173, 173);
+    margin-top: 20px;
+ }
+ .images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-top: 80px;
+
+ }
+ .card {
+    width: 17.8vw;
+    height: 17.18519vw;
+    background-color: rgba(240, 240, 240, 0.813);
+
+ }
+ .card img{
+    width: 17.8vw;
+    height: 13.18519vw;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .card p{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-top: 10px;
+ }
+.black-background{
+    width: 100%;
+    height: 76em;
+    background-color: #202124;
+}
+.three-line{
+height: 50px;
+width: 50%;
+}
+.three-line img{
+    margin-left: 229px;
+}
+.offers-view-deals{
+    height: 100px;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offers-view-deals h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 33px;
+    margin-left: 229px;
+    color: white;
+
+}
+.offers-view-deals p{
+    margin-right: 100px;
+    color: white;
+}
+.three-images-banner{
+    height: 400px;
+    width: 65%;
+    margin-left: 229px;
+    margin-top: 30px;
+    display: flex;
+    overflow-x: scroll;
+  
+}
+.three-images-banner img{
+    width: 317px;
+    height: 233px;
+    border-radius: 7px;
+}
+.three-images{
+    width: 300px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 21px;
+}
+.card-three-images{
+    background-color: #fff;
+    border-radius: 7px;
+}
+.card-three-images p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.card-three-images h1{
+    color: red;
+    letter-spacing: -2px;
+    text-align: center;
+}
+.card-three-images a{
+    color: black;
+    font-weight: 500;
+    display: block;
+    margin-top: 24px;
+    margin-left: 32px;
+
+
+}
+.card-three-images button{
+    height: 44px;
+    width: 161px;
+    position: relative;
+    left: 136px;
+    bottom: 28px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: 600;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+
+}
+#last-img{
+    width: 293px;
+    opacity: 0.5;
+}
+#flat-off{
+    width: 293px;
+}
+#last-button{
+    width: 139px;
+}
+.circle{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.circle div{
+    width: 50px;             
+    height: 50px;           
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between; 
+}
+.div-one{
+   position: relative;
+   top: 50px;
+   left: 100px;
+   top: -258px;
+    left: -112px;
+    opacity: 0.3;
+}
+.div-two{
+    position: absolute;
+    opacity: 0.5;
+    right: 55px;
+    top: 1939px;
+ }
+ .first-nav button:hover{
+    background-color: #384f39; 
+    transform: scale(1.05); 
+    cursor: pointer;
+ }
+ .order-reminder button:hover{
+    background-color: #a81818; 
+    transform: scale(1.05); 
+    cursor: pointer;
+ }
+.card-three-images button:hover{
+    background-color: #141111; 
+    transform: scale(1.05); 
+    cursor: pointer;
+    color: #fff;
+}
+ /* footer start here */
+ .last-section{
+    margin-top: 300px;
+    display: flex;
+ }
+ .last-logo-img{
+    position: relative;
+    left: 130px;
+ }
+ .lists-container {
+    display: grid;           
+    grid-template-columns: repeat(4, 1fr); 
+    /* gap: 5px;                */
+    /* margin: 20px; */
+    height: 100px;
+    width: 43%;
+    position: relative;
+    left: 255px;
+
+}
+
+ul.list {
+    list-style-type: none;
+    /* padding-left: 20px; */
+   font-size: 14px;
+    /* width: 250px; */
+    color: white; 
+    font-weight: 480; 
+        
+}
+
+ul.list li {
+    margin: 5px 0;
+}
+.find-kfc{
+    position: relative;
+    left: 250px;
+}
+.find-kfc a{
+    color: #fff;
+    font-size: 14px;
+
+}
+.find-kfc img{
+    height: 14px;
+}
+.playstore-appstore{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.playstore-appstore img{
+    width: 119px;
+    height: 44px;
+    position: relative;
+    left: 365px;
+}
+.endss{
+    position: relative;
+    top: 430px;
+}
+.endss p{
+    margin: 0;
+    font-family: "National 2 Regular";
+    font-size: 14px;
+    text-align: center;
+    opacity: .9;
+    line-height: 12px;
+    color: #dbdbdb;
+}
+ /* footer end here */
+ @media only screen and (max-width: 600px){
+ 
+    hr{
+        position: relative;
+        top: 30px;
+    }
+.first-nav{
+    display: block;
+}
+.first-nav img{
+position: relative;
+top: 30px;
+left: -1%;
+}
+.first-nav p{
+    display: flex;
+    width: 50%;
+    margin-left: 20px;
+}
+.first-nav button{
+    position: relative;
+    top: -35px;
+    left: 75%;
+}
+.three-dots{
+    display: block;
+    position: relative;
+    left: 10px;
+}
+.second-nav-first-section p{
+    display: none;
+}
+.acc-icon-img{
+    display: none;
+}
+.second-nav-second-section a{
+    display: none;
+}
+.bucket-img{
+    position: relative;
+    left: 0%;
+}
+.zero{
+    position: relative;
+    left: 50%;
+}
+.kfc-logo{
+    position: relative;
+    right: 10%;
+}
+.order-reminder{
+    display: block;
+}
+.order-reminder p{
+font-size: 15px;
+display: flex;
+justify-content: center;
+font-weight: bold;
+}
+.order-reminder button{
+    position: relative;
+    left: 35%;
+}
+.banner-img img{
+    height: 200px;
+}
+.second-section{
+margin: 0%;
+margin-left: 50px;
+margin-right: 50px;
+height: 1350px;
+}
+.brows-img-category{
+    display: flex;
+    justify-content: space-evenly;
+}
+.brows-img-category h1{
+    font-size: 17px;
+    width: 50%;
+    position: relative;
+    top: 7px;
+}
+.line{
+    position: relative;
+    left: 40px;
+}
+.images{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+}
+.circle{
+    display: none;
+}
+.card{
+    width: 230px;
+    height: 250px;
+}
+.card img{
+    width:  230px;
+    height: 180px;
+}
+#last-img{
+    display: none;
+}
+.offers-view-deals{
+display: block;
+}
+.offers-view-deals h3{
+    font-size: 19px;
+    position: relative;
+    top: -30px ;
+    left: -80px;
+}
+.offers-view-deals p{
+    position: relative;
+    left: 40%;
+}
+.card-three-images{
+    position: relative;
+    left: -200px;
+    width: 250px;
+}
+.card-three-images img{
+    width: 250px;
+    height: 200px;
+}
+.card-three-images button{
+    width: 150px;
+    position: relative;
+    left: 88px;
+}
+.card-three-images a{
+    height: 10px;
+    font-size: 12px;
+    position: relative;
+    left: -20px;
+}
+.playstore-appstore{
+    display: none;
+}
+#third-img{
+    display: none;
+}
+.three-images-banner{
+}
+
+
+
+
+
+ }
